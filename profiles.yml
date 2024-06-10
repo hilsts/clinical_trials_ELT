@@ -1,0 +1,8 @@
+clinical_trials:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: './dw/clinical_trials.duckdb'
+      schema: clinical_trials_staging
+      threads: 1

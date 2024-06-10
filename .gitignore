@@ -1,0 +1,4 @@
+/.venv
+/dw/schemas/*
+.DS_Store
+*.duckdb
